@@ -1,0 +1,118 @@
+<!DOCTYPE html><!--Tells the browser that this is an HTML document-->
+<html lang="en"><!--Declares the language of the HTML document -->
+<meta charset="UTF-8"><!--defines the character set-->
+<title>Claire Zhang's Portfolio</title><!--imports unicode-->
+<meta name="viewport" content="width=device-width,initial-scale=1"><!--Makes the page look good on all sizes of the page-->
+<link rel="stylesheet" href="design.css"><!--links to the CSS page-->
+<script src=""></script>
+<body>
+
+<div class="topnavigationbar">
+    <a class="active" href="#home">Home Page</a>
+    <a href="#aboutme">About Me</a>
+    <a href="#workexperience">Work Experience</a>
+    <a href="#contact">Contact Me</a>
+</div>
+
+<div class="hero-image">
+    <div class="hero-text">
+        <h1>My name is Claire :D</h1>
+        <p>I am a second-year software engineering student at Western University with passions in UX/UI design, product management, and cooking!</p>
+        <button>Contact me!</button>
+    </div>
+</div>
+
+<!--About Me Section--------------------------------------------------------------->
+
+<div class="about-section">
+    <h1>About Me</h1>
+    <p>I'm based in Toronto and love travelling downtown. I'm an adventurous and curious person constantly looking for new experiences. Check out more of my information down below:</p>
+  </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="headshot.jpg" alt="Claire" style="width:100%">
+        <div class="container">
+          <h2>Claire Zhang</h2>
+          <p class="title">Software Engineer</p>
+          <p>An avid learner in arts and engineering. Constantly looking for ways to impact people and initiatives.</p>
+          <p>czhan828@uwo.ca</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <!--Spacer-->
+    <div class="spacer">
+    </div>
+
+<!--Work Experience Section---------------------------------------------------->
+
+<div class="workexperience-section">
+    <h1>Work Experience</h1>
+    <p>Here are some of the extracurricular and professional work experience I've gained over the past year:</p>
+  </div>
+    <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="atilatech.jpg" alt="Claire" style="width:100%">
+        <div class="container">
+          <h2>Atila Tech</h2>
+          <p class="title">Design and Marketing Intern</p>
+          <p>I led marketing campaigns for new events and company initiatives that garned more than 150 attendees.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="spacer1">
+    </div>
+        
+        <!--Contact me Section---------------------------------------------------->
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact Me</h2>
+              <p>Send me a message to book a cookie chat or share common interests.</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="bluewaves.jpg" style="width:100%">
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!--Footer-->
+          <style>
+            .footer {
+              position: fixed;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              background-color: #00bfff;
+              color: white;
+              text-align: center;
+            }
+            </style>
+            
+        <div class="footer">
+          <p>Footer</p>
+        </div>
+      </body>
+      </html>
+  
